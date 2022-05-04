@@ -1,0 +1,32 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="Character-To-ASCII-converter"
+run/main_scene="res://Control.tscn"
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+boot_splash/bg_color=Color( 0.286275, 0.317647, 0.67451, 1 )
+config/icon="res://icon.png"
+
+[display]
+
+window/size/resizable=false
+window/size/borderless=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
+portals/bg_color=Color( 0.284435, 0.318067, 0.675781, 1 )
